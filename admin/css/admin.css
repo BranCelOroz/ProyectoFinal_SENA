@@ -1,0 +1,219 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+	
+	background-color: #6E6E6E;
+}
+
+
+
+.perfil_container {
+
+	background-color: #EFEFEF;
+	width: 700px;
+	border-top: solid .5rem #24282b;
+	padding: 3rem 0;
+	box-shadow: 0 0 .5rem #24282b;
+    margin: auto;
+    margin-top: 10px;
+	justify-content: left;
+	
+}
+.perfil_top {
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+}
+.perfil_title {
+	color: black;
+}
+.perfil_title span {
+	color: grey;
+}
+.perfil_img {
+	width: 8rem;
+	border-radius: 50%;
+}
+
+
+
+
+/*---------------------------- estilos registro.php -----------------------------------------*/
+#hi{
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  font-size: 3.6em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.login {
+  width: 400px;
+}
+
+input[type="text"], input[type="password"] {
+  width: 350px;
+  padding: 20px 0px;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #435160;
+  outline: none;
+  color: white;
+  font-size: 16px;
+}
+select {
+  width: 350px;
+  padding: 20px 0px;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #435160;
+  outline: none;
+  color: white;
+  font-size: 16px;
+}
+
+
+
+input[type="submit"] {
+  background: #1293d4;
+  border: 0;
+  width: 350px;
+  height: 40px;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+input[type="submit"]:hover {
+  background: #084B8A;
+  animation-name: shake;
+}
+
+input[type="reset"] {
+  background: #1293d4;
+  border: 0;
+  width: 350px;
+  height: 40px;
+  border-radius: 3px;
+  border-top:  1px solid white;
+  color: #fff;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+input[type="reset"]:hover {
+  background: #084B8A;
+  animation-name: shake;
+}
+
+
+
+
+::-webkit-input-placeholder {
+  color: white;
+  font-size: 12px;
+}
+
+.animated {
+  animation-fill-mode: both;
+  animation-duration: 1s;
+}
+
+@keyframes shake {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  10%, 30%, 50%, 70%, 90% {
+    transform: translateX(-10px);
+  }
+  20%, 40%, 60%, 80% {
+    transform: translateX(10px);
+  }
+}
+
+
+/*---------------------------------------- estilos clientes.php ---------------------------------------*/
+
+
+
+#main_container {
+  margin-top: 50px;
+  width: 600px;
+  text-align: center;
+}
+#hello {
+  color: white;
+  font-size: 30px;
+}
+table {
+  margin-left: 125px;
+  background-color: white;
+  text-align: center;
+  border-collapse: collapse;
+  width: 100%;
+}
+th, td {
+  padding: 20px;
+}
+
+thead {
+  background-color: #1293d4;
+  border-bottom: solid 5px darkblue;
+  color: white;
+}
+ tr:nth-child(even){
+  background-color: #ddd;
+ }
+
+ tr:hover{
+  background-color: #084B8A;
+  color: white;
+ }
+/*------------------------------------------ registro tabla -------------------------------------*/
+#main_containers {
+  margin-top: 10px;
+  font-size: 20px;
+  width: 600px;
+}
+table {
+  background-color: white;
+
+  border-collapse: collapse;
+  width: 100%;
+}
+th, td {
+  padding: 20px;
+}
+
+thead {
+  background-color: #1293d4;
+  border-bottom: solid 5px darkblue;
+  color: white;
+}
+ tr:nth-child(even){
+  background-color: #ddd;
+ }
+
+ tr:hover{
+  background-color: #084B8A;
+  color: white;
+ }
+
+
+
+ /*----------------------------------------------------- iconos CRUD ----------------------------------*/
+ #hii {
+  font-size: 20px;
+  color: black;
+ }
